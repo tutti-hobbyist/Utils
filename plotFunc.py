@@ -258,4 +258,4 @@ if __name__ == "__main__":
 
     plotAll(df_x, df_y, "Val1", "Val2", df_y.columns, saveDir, "/testAll.jpg", xDispIval=10, legCol=2)
     plotEach(df_x, df_y, 2, 3, "Val1", df_y.columns, saveDir, "/testEach.jpg", xDispIval=10, xLabFS=18)
-    plotEachGroup(df_x, df_y, 1, 2, 2, "Val1", "val2", df_y.columns, saveDir, "/testEachGroup.jpg", xDispIval=10, xLabFS=18, yLabFS=18)
+    plotEachGroup(df_x, df_y, 2, 1, 2, "Val1", "val2", df_y.columns, saveDir, "/testEachGroup.jpg", xDispIval=10, xLabFS=18, yLabFS=18)
